@@ -1,10 +1,10 @@
 import React from "react"
-import RefsArray from "./refs-array"
+import MessageBox from "./state-func"
 
 function App() {
   return (
     [ 
-    <p><center><RefsArray/></center></p>,
+    <p><center><MessageBox/></center></p>,
     ]
   );
 }
