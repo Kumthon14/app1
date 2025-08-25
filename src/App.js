@@ -1,11 +1,15 @@
 import React from "react"
-import MessageBox from "./state-func"
+import { userContext } from "./context"
+import Content2 from "./context-content2"
+import Header2 from "./context-header2";
 
 function App() {
+  let [user,setUser] = React.useState()
   return (
-    [ 
-    <p><center><MessageBox/></center></p>,
-    ]
+    <userContext.Provider value={[user,setUser]}>
+      <Header2/>
+      <Content2/>
+    </userContext.Provider>
   );
 }
 
