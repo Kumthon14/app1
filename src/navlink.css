@@ -1,0 +1,21 @@
+.nav{
+    background: #9a52f2;
+    background: linear-gradient(90deg, rgba(154, 82, 242, 1) 6%, rgba(122, 255, 215, 1) 100%);
+    padding:7px;
+    text-align:center;
+}
+
+.menu{
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+.active_menu{
+    color: rebeccapurple;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px 6px;
+}
